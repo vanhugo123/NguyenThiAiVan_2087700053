@@ -1,4 +1,6 @@
-﻿/* Set padding to keep content from hitting the edges */
+﻿
+
+/* Set padding to keep content from hitting the edges */
 .body-content {
     margin-top: 15px;
     padding-left: 15px;
@@ -18,3 +20,45 @@ select,
 textarea {
     max-width: 280px;
 }
+nav {
+    background-color: firebrick;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-right{
+    height: 50px;
+    width: 150px;
+    padding:0;
+    background-color: black;
+    text-align:center;
+    align-content: center;
+}
+.navbar-right a{
+    color: whitesmoke;
+    text-align:center
+}
+    .navbar-right a:hover{
+        color:mintcream;
+    }
+.course {
+    list-style: none;
+}
+    .course > li {
+        position : relative;
+        margin-bottom: 30px;
+    }
+    .course > li .day{
+        text-align : center;
+        background: firebrick;
+        color: white;
+        width: 60px;
+        border-radius: 5px;
+    }
+    .course > li .details{
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }
+

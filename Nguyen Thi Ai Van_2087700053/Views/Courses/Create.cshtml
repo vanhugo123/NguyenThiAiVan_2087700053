@@ -3,10 +3,15 @@
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<style>
+    .from-group label {
+        padding: 10px;
+    }
+</style>
 <h2>Create</h2>
 @using (Html.BeginForm("Create", "Course"))
 {
+    @Html.AntiForgeryToken()
     <form>
         <div class="from-group">
             @Html.LabelFor(m => m.Place)

@@ -28,6 +28,7 @@ namespace Nguyen_Thi_Ai_Van_2087700053.Controllers
         }
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {
             if(!ModelState.IsValid)
