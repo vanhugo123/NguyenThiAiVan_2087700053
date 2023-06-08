@@ -19,46 +19,19 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-nav {
-    background-color: firebrick;
-}
-.navbar-brand{
-    color: white !important;
-}
+}/*
 
-.navbar-right{
-    height: 50px;
-    width: 150px;
-    padding:0;
-    background-color: black;
+.navbar-inverse {
+    background-color: #d41d50;
+    border-color: #fbf6f6;
+}
+.navbar-inverse .narbar-nav > li >a{
     text-align:center;
-    align-content: center;
+    color: white;
 }
-.navbar-right a{
-    color: whitesmoke;
-    text-align:center
+.navbar-inverse .navbar-brand {
+    text-align: center;
+    color:white;
 }
-    .navbar-right a:hover{
-        color:mintcream;
-    }
-.course {
-    list-style: none;
-}
-    .course > li {
-        position : relative;
-        margin-bottom: 30px;
-    }
-    .course > li .day{
-        text-align : center;
-        background: firebrick;
-        color: white;
-        width: 60px;
-        border-radius: 5px;
-    }
-    .course > li .details{
-        position: absolute;
-        top: 0;
-        left: 70px;
-    }
+*/
 
